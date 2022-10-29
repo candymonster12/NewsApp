@@ -1,7 +1,7 @@
-package com.example.newsapp
+package com.example.newsapp.models
 
 
-import com.google.gson.annotations.SerializedName
+import com.example.newsapp.models.Article
 
 data class NewsResponse(
     val articles: List<Article>,
